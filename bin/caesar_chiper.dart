@@ -60,6 +60,9 @@ void proses(bool menu) {
       offset = 97;
     } else if (ch >= 'A'.codeUnitAt(0) && ch <= 'Z'.codeUnitAt(0)) {
       offset = 65;
+    } else if (ch == ' '.codeUnitAt(0)) {
+      hasil += " ";
+      continue;
     } else {
       print("Input Pesan Salah!!"); // jikalau input pesan bukan alphabet
       break;
