@@ -5,7 +5,7 @@ void main() {
   bool stop = true;
 
   while (stop) {
-    print("Wellcome to Caesar Chiper");
+    print("Wellcome to Caesar Cipher");
 
     print("Menu: ");
     print("1. Encrypt ");
